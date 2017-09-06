@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE74EA121F5CF7560076F847 /* CoantionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE74EA111F5CF7560076F847 /* CoantionViewController.m */; };
+		BE74EA191F5D4B980076F847 /* DrawCyclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE74EA181F5D4B980076F847 /* DrawCyclesView.m */; };
+		BE85A9A11F4A759A00A3AA69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9A01F4A759A00A3AA69 /* main.m */; };
+		BE85A9A41F4A759A00A3AA69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9A31F4A759A00A3AA69 /* AppDelegate.m */; };
+		BE85A9A71F4A759A00A3AA69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9A61F4A759A00A3AA69 /* ViewController.m */; };
+		BE85A9AA1F4A759A00A3AA69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE85A9A81F4A759A00A3AA69 /* Main.storyboard */; };
+		BE85A9AD1F4A759A00A3AA69 /* TestDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9AB1F4A759A00A3AA69 /* TestDemo.xcdatamodeld */; };
+		BE85A9AF1F4A759A00A3AA69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE85A9AE1F4A759A00A3AA69 /* Assets.xcassets */; };
+		BE85A9B21F4A759A00A3AA69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE85A9B01F4A759A00A3AA69 /* LaunchScreen.storyboard */; };
+		BE85A9BD1F4A759A00A3AA69 /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9BC1F4A759A00A3AA69 /* TestDemoTests.m */; };
+		BE85A9C81F4A759A00A3AA69 /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9C71F4A759A00A3AA69 /* TestDemoUITests.m */; };
+		BE85A9D91F4ABFD000A3AA69 /* ForWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9D81F4ABFD000A3AA69 /* ForWordController.m */; };
+		BE85A9DC1F4AC12200A3AA69 /* NSObject+performSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9DB1F4AC12200A3AA69 /* NSObject+performSelector.m */; };
+		BE85A9E11F4AC13200A3AA69 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9DE1F4AC13200A3AA69 /* Person.m */; };
+		BE85A9E21F4AC13200A3AA69 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9E01F4AC13200A3AA69 /* Student.m */; };
+		BE85A9E61F4AC42D00A3AA69 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9E51F4AC42D00A3AA69 /* GCDViewController.m */; };
+		BE85A9EA1F4AC8BA00A3AA69 /* ScanQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9E91F4AC8BA00A3AA69 /* ScanQRViewController.m */; };
+		BE85A9EC1F4AC8E400A3AA69 /* 图标.png in Resources */ = {isa = PBXBuildFile; fileRef = BE85A9EB1F4AC8E400A3AA69 /* 图标.png */; };
+		BE85A9EF1F4AC91300A3AA69 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9EE1F4AC91300A3AA69 /* BaseViewController.m */; };
+		BE85A9F61F4ACB9400A3AA69 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9F51F4ACB9400A3AA69 /* NSOperationViewController.m */; };
+		BE85A9F91F4ACC3300A3AA69 /* touchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9F81F4ACC3300A3AA69 /* touchViewController.m */; };
+		BE85A9FD1F4ACD4900A3AA69 /* RunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9FC1F4ACD4900A3AA69 /* RunTimeViewController.m */; };
+		BE85AA001F4ACD8C00A3AA69 /* RunTimePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85A9FF1F4ACD8C00A3AA69 /* RunTimePerson.m */; };
+		BE85AA041F4ACF8B00A3AA69 /* StrongAndCopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA031F4ACF8B00A3AA69 /* StrongAndCopyViewController.m */; };
+		BE85AA081F4AD09C00A3AA69 /* DicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA071F4AD09C00A3AA69 /* DicViewController.m */; };
+		BE85AA0D1F4AD0AB00A3AA69 /* XLArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA0A1F4AD0AB00A3AA69 /* XLArray.m */; };
+		BE85AA0E1F4AD0AB00A3AA69 /* XLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA0C1F4AD0AB00A3AA69 /* XLDictionary.m */; };
+		BE85AA111F4AD24100A3AA69 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA101F4AD24100A3AA69 /* CommonTools.m */; };
+		BE85AA151F4AD38A00A3AA69 /* ReFreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA141F4AD38A00A3AA69 /* ReFreshViewController.m */; };
+		BE85AA1A1F4AD39F00A3AA69 /* TestvView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA171F4AD39F00A3AA69 /* TestvView.m */; };
+		BE85AA1B1F4AD39F00A3AA69 /* YCalayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA191F4AD39F00A3AA69 /* YCalayer.m */; };
+		BE85AA231F4AD84600A3AA69 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA221F4AD84600A3AA69 /* CardViewController.m */; };
+		BE85AA2C1F4AD86C00A3AA69 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA251F4AD86C00A3AA69 /* CollectionViewController.m */; };
+		BE85AA2D1F4AD86C00A3AA69 /* XLCarouselViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA271F4AD86C00A3AA69 /* XLCarouselViewCell.m */; };
+		BE85AA2E1F4AD86C00A3AA69 /* XLCarouselViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA291F4AD86C00A3AA69 /* XLCarouselViewLayout.m */; };
+		BE85AA2F1F4AD86C00A3AA69 /* XLController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA2B1F4AD86C00A3AA69 /* XLController.m */; };
+		BE85AA331F4AD92100A3AA69 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA301F4AD92100A3AA69 /* 0.jpg */; };
+		BE85AA341F4AD92100A3AA69 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA311F4AD92100A3AA69 /* 1.jpg */; };
+		BE85AA351F4AD92100A3AA69 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA321F4AD92100A3AA69 /* 2.jpg */; };
+		BE85AA3B1F4AD9C400A3AA69 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA3A1F4AD9C400A3AA69 /* NSObject+KVO.m */; };
+		BE85AA3E1F4AD9DD00A3AA69 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA3D1F4AD9DD00A3AA69 /* KVOViewController.m */; };
+		BE85AA411F4ADA7D00A3AA69 /* icon_certification_status1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA401F4ADA7D00A3AA69 /* icon_certification_status1@2x.png */; };
+		BE85AA441F4ADA9B00A3AA69 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA431F4ADA9B00A3AA69 /* NotificationViewController.m */; };
+		BE85AA481F4AE18800A3AA69 /* KnowledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA471F4AE18800A3AA69 /* KnowledViewController.m */; };
+		BE85AA4B1F4AE22C00A3AA69 /* kPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA4A1F4AE22C00A3AA69 /* kPerson.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BE85AA4E1F4AE2F600A3AA69 /* KeyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA4D1F4AE2F600A3AA69 /* KeyWord.m */; };
+		BE85AA511F4AE30600A3AA69 /* QuChong.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA501F4AE30600A3AA69 /* QuChong.m */; };
+		BE85AA541F4AE31100A3AA69 /* sortArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA531F4AE31100A3AA69 /* sortArray.m */; };
+		BE85AA591F4AE38A00A3AA69 /* ButtonCallbackObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA561F4AE38A00A3AA69 /* ButtonCallbackObject.m */; };
+		BE85AA5A1F4AE38A00A3AA69 /* MRCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA581F4AE38A00A3AA69 /* MRCObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BE85AA5D1F4AE54900A3AA69 /* GCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA5C1F4AE54900A3AA69 /* GCDTest.m */; };
+		BE85AA611F4AE59A00A3AA69 /* BlockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA601F4AE59A00A3AA69 /* BlockObject.m */; };
+		BE85AA681F4AED4900A3AA69 /* CoustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA671F4AED4900A3AA69 /* CoustomController.m */; };
+		BE85AA6D1F4AED6000A3AA69 /* YXLDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA6A1F4AED6000A3AA69 /* YXLDrawViewController.m */; };
+		BE85AA6E1F4AED6000A3AA69 /* YXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA6C1F4AED6000A3AA69 /* YXLViewController.m */; };
+		BE85AA751F4AED7C00A3AA69 /* YXLDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA701F4AED7C00A3AA69 /* YXLDrawView.m */; };
+		BE85AA761F4AED7C00A3AA69 /* YXLLine.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA721F4AED7C00A3AA69 /* YXLLine.m */; };
+		BE85AA771F4AED7C00A3AA69 /* YXLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA741F4AED7C00A3AA69 /* YXLView.m */; };
+		E4AE3D7F931B54763F02FF78 /* libPods-TestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB3A74F9D045B1ED37C06E9 /* libPods-TestDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE85A9B91F4A759A00A3AA69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE85A9941F4A759A00A3AA69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE85A99B1F4A759A00A3AA69;
+			remoteInfo = TestDemo;
+		};
+		BE85A9C41F4A759A00A3AA69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE85A9941F4A759A00A3AA69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE85A99B1F4A759A00A3AA69;
+			remoteInfo = TestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DB3A74F9D045B1ED37C06E9 /* libPods-TestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE74EA101F5CF7560076F847 /* CoantionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoantionViewController.h; sourceTree = "<group>"; };
+		BE74EA111F5CF7560076F847 /* CoantionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoantionViewController.m; sourceTree = "<group>"; };
+		BE74EA171F5D4B980076F847 /* DrawCyclesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCyclesView.h; sourceTree = "<group>"; };
+		BE74EA181F5D4B980076F847 /* DrawCyclesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCyclesView.m; sourceTree = "<group>"; };
+		BE85A99C1F4A759A00A3AA69 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE85A9A01F4A759A00A3AA69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE85A9A21F4A759A00A3AA69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE85A9A31F4A759A00A3AA69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE85A9A51F4A759A00A3AA69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE85A9A61F4A759A00A3AA69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE85A9A91F4A759A00A3AA69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE85A9AC1F4A759A00A3AA69 /* TestDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestDemo.xcdatamodel; sourceTree = "<group>"; };
+		BE85A9AE1F4A759A00A3AA69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE85A9B11F4A759A00A3AA69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE85A9B31F4A759A00A3AA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE85A9B81F4A759A00A3AA69 /* TestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE85A9BC1F4A759A00A3AA69 /* TestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoTests.m; sourceTree = "<group>"; };
+		BE85A9BE1F4A759A00A3AA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE85A9C31F4A759A00A3AA69 /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE85A9C71F4A759A00A3AA69 /* TestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoUITests.m; sourceTree = "<group>"; };
+		BE85A9C91F4A759A00A3AA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE85A9D71F4ABFD000A3AA69 /* ForWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForWordController.h; sourceTree = "<group>"; };
+		BE85A9D81F4ABFD000A3AA69 /* ForWordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForWordController.m; sourceTree = "<group>"; };
+		BE85A9DA1F4AC12200A3AA69 /* NSObject+performSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+performSelector.h"; sourceTree = "<group>"; };
+		BE85A9DB1F4AC12200A3AA69 /* NSObject+performSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+performSelector.m"; sourceTree = "<group>"; };
+		BE85A9DD1F4AC13200A3AA69 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BE85A9DE1F4AC13200A3AA69 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BE85A9DF1F4AC13200A3AA69 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		BE85A9E01F4AC13200A3AA69 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		BE85A9E41F4AC42D00A3AA69 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		BE85A9E51F4AC42D00A3AA69 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		BE85A9E81F4AC8BA00A3AA69 /* ScanQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQRViewController.h; sourceTree = "<group>"; };
+		BE85A9E91F4AC8BA00A3AA69 /* ScanQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQRViewController.m; sourceTree = "<group>"; };
+		BE85A9EB1F4AC8E400A3AA69 /* 图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标.png"; sourceTree = "<group>"; };
+		BE85A9ED1F4AC91300A3AA69 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BE85A9EE1F4AC91300A3AA69 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BE85A9F41F4ACB9400A3AA69 /* NSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		BE85A9F51F4ACB9400A3AA69 /* NSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
+		BE85A9F71F4ACC3300A3AA69 /* touchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = touchViewController.h; sourceTree = "<group>"; };
+		BE85A9F81F4ACC3300A3AA69 /* touchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = touchViewController.m; sourceTree = "<group>"; };
+		BE85A9FB1F4ACD4900A3AA69 /* RunTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTimeViewController.h; sourceTree = "<group>"; };
+		BE85A9FC1F4ACD4900A3AA69 /* RunTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTimeViewController.m; sourceTree = "<group>"; };
+		BE85A9FE1F4ACD8C00A3AA69 /* RunTimePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTimePerson.h; sourceTree = "<group>"; };
+		BE85A9FF1F4ACD8C00A3AA69 /* RunTimePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTimePerson.m; sourceTree = "<group>"; };
+		BE85AA021F4ACF8B00A3AA69 /* StrongAndCopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrongAndCopyViewController.h; sourceTree = "<group>"; };
+		BE85AA031F4ACF8B00A3AA69 /* StrongAndCopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrongAndCopyViewController.m; sourceTree = "<group>"; };
+		BE85AA061F4AD09C00A3AA69 /* DicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicViewController.h; sourceTree = "<group>"; };
+		BE85AA071F4AD09C00A3AA69 /* DicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DicViewController.m; sourceTree = "<group>"; };
+		BE85AA091F4AD0AB00A3AA69 /* XLArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLArray.h; sourceTree = "<group>"; };
+		BE85AA0A1F4AD0AB00A3AA69 /* XLArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLArray.m; sourceTree = "<group>"; };
+		BE85AA0B1F4AD0AB00A3AA69 /* XLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDictionary.h; sourceTree = "<group>"; };
+		BE85AA0C1F4AD0AB00A3AA69 /* XLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDictionary.m; sourceTree = "<group>"; };
+		BE85AA0F1F4AD24100A3AA69 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		BE85AA101F4AD24100A3AA69 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		BE85AA131F4AD38A00A3AA69 /* ReFreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReFreshViewController.h; sourceTree = "<group>"; };
+		BE85AA141F4AD38A00A3AA69 /* ReFreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReFreshViewController.m; sourceTree = "<group>"; };
+		BE85AA161F4AD39F00A3AA69 /* TestvView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestvView.h; sourceTree = "<group>"; };
+		BE85AA171F4AD39F00A3AA69 /* TestvView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestvView.m; sourceTree = "<group>"; };
+		BE85AA181F4AD39F00A3AA69 /* YCalayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCalayer.h; sourceTree = "<group>"; };
+		BE85AA191F4AD39F00A3AA69 /* YCalayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCalayer.m; sourceTree = "<group>"; };
+		BE85AA211F4AD84600A3AA69 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		BE85AA221F4AD84600A3AA69 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		BE85AA241F4AD86C00A3AA69 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		BE85AA251F4AD86C00A3AA69 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		BE85AA261F4AD86C00A3AA69 /* XLCarouselViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCarouselViewCell.h; sourceTree = "<group>"; };
+		BE85AA271F4AD86C00A3AA69 /* XLCarouselViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCarouselViewCell.m; sourceTree = "<group>"; };
+		BE85AA281F4AD86C00A3AA69 /* XLCarouselViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCarouselViewLayout.h; sourceTree = "<group>"; };
+		BE85AA291F4AD86C00A3AA69 /* XLCarouselViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCarouselViewLayout.m; sourceTree = "<group>"; };
+		BE85AA2A1F4AD86C00A3AA69 /* XLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLController.h; sourceTree = "<group>"; };
+		BE85AA2B1F4AD86C00A3AA69 /* XLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLController.m; sourceTree = "<group>"; };
+		BE85AA301F4AD92100A3AA69 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		BE85AA311F4AD92100A3AA69 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BE85AA321F4AD92100A3AA69 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		BE85AA391F4AD9C400A3AA69 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		BE85AA3A1F4AD9C400A3AA69 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		BE85AA3C1F4AD9DD00A3AA69 /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		BE85AA3D1F4AD9DD00A3AA69 /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		BE85AA401F4ADA7D00A3AA69 /* icon_certification_status1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_certification_status1@2x.png"; sourceTree = "<group>"; };
+		BE85AA421F4ADA9B00A3AA69 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		BE85AA431F4ADA9B00A3AA69 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		BE85AA461F4AE18800A3AA69 /* KnowledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowledViewController.h; sourceTree = "<group>"; };
+		BE85AA471F4AE18800A3AA69 /* KnowledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledViewController.m; sourceTree = "<group>"; };
+		BE85AA491F4AE22C00A3AA69 /* kPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kPerson.h; sourceTree = "<group>"; };
+		BE85AA4A1F4AE22C00A3AA69 /* kPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kPerson.m; sourceTree = "<group>"; };
+		BE85AA4C1F4AE2F600A3AA69 /* KeyWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyWord.h; sourceTree = "<group>"; };
+		BE85AA4D1F4AE2F600A3AA69 /* KeyWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyWord.m; sourceTree = "<group>"; };
+		BE85AA4F1F4AE30600A3AA69 /* QuChong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuChong.h; sourceTree = "<group>"; };
+		BE85AA501F4AE30600A3AA69 /* QuChong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuChong.m; sourceTree = "<group>"; };
+		BE85AA521F4AE31100A3AA69 /* sortArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortArray.h; sourceTree = "<group>"; };
+		BE85AA531F4AE31100A3AA69 /* sortArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sortArray.m; sourceTree = "<group>"; };
+		BE85AA551F4AE38A00A3AA69 /* ButtonCallbackObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCallbackObject.h; sourceTree = "<group>"; };
+		BE85AA561F4AE38A00A3AA69 /* ButtonCallbackObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCallbackObject.m; sourceTree = "<group>"; };
+		BE85AA571F4AE38A00A3AA69 /* MRCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCObject.h; sourceTree = "<group>"; };
+		BE85AA581F4AE38A00A3AA69 /* MRCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCObject.m; sourceTree = "<group>"; };
+		BE85AA5B1F4AE54900A3AA69 /* GCDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTest.h; sourceTree = "<group>"; };
+		BE85AA5C1F4AE54900A3AA69 /* GCDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTest.m; sourceTree = "<group>"; };
+		BE85AA5F1F4AE59A00A3AA69 /* BlockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockObject.h; sourceTree = "<group>"; };
+		BE85AA601F4AE59A00A3AA69 /* BlockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockObject.m; sourceTree = "<group>"; };
+		BE85AA661F4AED4900A3AA69 /* CoustomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoustomController.h; sourceTree = "<group>"; };
+		BE85AA671F4AED4900A3AA69 /* CoustomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoustomController.m; sourceTree = "<group>"; };
+		BE85AA691F4AED6000A3AA69 /* YXLDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLDrawViewController.h; sourceTree = "<group>"; };
+		BE85AA6A1F4AED6000A3AA69 /* YXLDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLDrawViewController.m; sourceTree = "<group>"; };
+		BE85AA6B1F4AED6000A3AA69 /* YXLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLViewController.h; sourceTree = "<group>"; };
+		BE85AA6C1F4AED6000A3AA69 /* YXLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLViewController.m; sourceTree = "<group>"; };
+		BE85AA6F1F4AED7C00A3AA69 /* YXLDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLDrawView.h; sourceTree = "<group>"; };
+		BE85AA701F4AED7C00A3AA69 /* YXLDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLDrawView.m; sourceTree = "<group>"; };
+		BE85AA711F4AED7C00A3AA69 /* YXLLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLLine.h; sourceTree = "<group>"; };
+		BE85AA721F4AED7C00A3AA69 /* YXLLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLLine.m; sourceTree = "<group>"; };
+		BE85AA731F4AED7C00A3AA69 /* YXLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLView.h; sourceTree = "<group>"; };
+		BE85AA741F4AED7C00A3AA69 /* YXLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLView.m; sourceTree = "<group>"; };
+		CEB6FAC84327E6BFC7A82D2F /* Pods-TestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CEF03EB05B5048B5A014C566 /* Pods-TestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE85A9991F4A759A00A3AA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AE3D7F931B54763F02FF78 /* libPods-TestDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE85A9B51F4A759A00A3AA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE85A9C01F4A759A00A3AA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A16C40007D9316CBE15555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6FAC84327E6BFC7A82D2F /* Pods-TestDemo.debug.xcconfig */,
+				CEF03EB05B5048B5A014C566 /* Pods-TestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FE2BEDD06946A9158D23264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB3A74F9D045B1ED37C06E9 /* libPods-TestDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE74EA0F1F5CF7270076F847 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				BE74EA101F5CF7560076F847 /* CoantionViewController.h */,
+				BE74EA111F5CF7560076F847 /* CoantionViewController.m */,
+				BE74EA171F5D4B980076F847 /* DrawCyclesView.h */,
+				BE74EA181F5D4B980076F847 /* DrawCyclesView.m */,
+			);
+			name = "动画";
+			sourceTree = "<group>";
+		};
+		BE85A9931F4A759A00A3AA69 = {
+			isa = PBXGroup;
+			children = (
+				BE85A99E1F4A759A00A3AA69 /* TestDemo */,
+				BE85A9BB1F4A759A00A3AA69 /* TestDemoTests */,
+				BE85A9C61F4A759A00A3AA69 /* TestDemoUITests */,
+				BE85A99D1F4A759A00A3AA69 /* Products */,
+				18A16C40007D9316CBE15555 /* Pods */,
+				2FE2BEDD06946A9158D23264 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE85A99D1F4A759A00A3AA69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE85A99C1F4A759A00A3AA69 /* TestDemo.app */,
+				BE85A9B81F4A759A00A3AA69 /* TestDemoTests.xctest */,
+				BE85A9C31F4A759A00A3AA69 /* TestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE85A99E1F4A759A00A3AA69 /* TestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE74EA0F1F5CF7270076F847 /* 动画 */,
+				BE85AA651F4AECE900A3AA69 /* TouchTracker */,
+				BE85AA451F4AE0DB00A3AA69 /* OCKnowledge */,
+				BE85AA3F1F4ADA5E00A3AA69 /* iOS本地通知 */,
+				BE85AA381F4AD9A600A3AA69 /* KVO实现原理 */,
+				BE85AA201F4AD73A00A3AA69 /* collection卡片效果 */,
+				BE85AA121F4AD36500A3AA69 /* UIView的刷新 */,
+				BE85AA051F4AD05E00A3AA69 /* 链表实现数组和字典 */,
+				BE85AA011F4ACF5F00A3AA69 /* strong和copy */,
+				BE85A9FA1F4ACD2900A3AA69 /* RunTime */,
+				BE85A9F01F4ACB3B00A3AA69 /* NSOperation */,
+				BE85A9E71F4AC88800A3AA69 /* 生成二维码 */,
+				BE85A9E31F4AC41B00A3AA69 /* GCD */,
+				BE85A9D61F4ABF9E00A3AA69 /* 消息机制 */,
+				BE85A9D51F4ABF6F00A3AA69 /* baseViewController */,
+				BE85A9A81F4A759A00A3AA69 /* Main.storyboard */,
+				BE85A9AE1F4A759A00A3AA69 /* Assets.xcassets */,
+				BE85A9B01F4A759A00A3AA69 /* LaunchScreen.storyboard */,
+				BE85A9B31F4A759A00A3AA69 /* Info.plist */,
+				BE85A9AB1F4A759A00A3AA69 /* TestDemo.xcdatamodeld */,
+				BE85A99F1F4A759A00A3AA69 /* Supporting Files */,
+			);
+			path = TestDemo;
+			sourceTree = "<group>";
+		};
+		BE85A99F1F4A759A00A3AA69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE85A9A01F4A759A00A3AA69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE85A9BB1F4A759A00A3AA69 /* TestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE85A9BC1F4A759A00A3AA69 /* TestDemoTests.m */,
+				BE85A9BE1F4A759A00A3AA69 /* Info.plist */,
+			);
+			path = TestDemoTests;
+			sourceTree = "<group>";
+		};
+		BE85A9C61F4A759A00A3AA69 /* TestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE85A9C71F4A759A00A3AA69 /* TestDemoUITests.m */,
+				BE85A9C91F4A759A00A3AA69 /* Info.plist */,
+			);
+			path = TestDemoUITests;
+			sourceTree = "<group>";
+		};
+		BE85A9D51F4ABF6F00A3AA69 /* baseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA0F1F4AD24100A3AA69 /* CommonTools.h */,
+				BE85AA101F4AD24100A3AA69 /* CommonTools.m */,
+				BE85A9A21F4A759A00A3AA69 /* AppDelegate.h */,
+				BE85A9A31F4A759A00A3AA69 /* AppDelegate.m */,
+				BE85A9A51F4A759A00A3AA69 /* ViewController.h */,
+				BE85A9A61F4A759A00A3AA69 /* ViewController.m */,
+				BE85A9ED1F4AC91300A3AA69 /* BaseViewController.h */,
+				BE85A9EE1F4AC91300A3AA69 /* BaseViewController.m */,
+			);
+			name = baseViewController;
+			sourceTree = "<group>";
+		};
+		BE85A9D61F4ABF9E00A3AA69 /* 消息机制 */ = {
+			isa = PBXGroup;
+			children = (
+				BE85A9D71F4ABFD000A3AA69 /* ForWordController.h */,
+				BE85A9D81F4ABFD000A3AA69 /* ForWordController.m */,
+				BE85A9DD1F4AC13200A3AA69 /* Person.h */,
+				BE85A9DE1F4AC13200A3AA69 /* Person.m */,
+				BE85A9DF1F4AC13200A3AA69 /* Student.h */,
+				BE85A9E01F4AC13200A3AA69 /* Student.m */,
+				BE85A9DA1F4AC12200A3AA69 /* NSObject+performSelector.h */,
+				BE85A9DB1F4AC12200A3AA69 /* NSObject+performSelector.m */,
+			);
+			name = "消息机制";
+			sourceTree = "<group>";
+		};
+		BE85A9E31F4AC41B00A3AA69 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				BE85A9E41F4AC42D00A3AA69 /* GCDViewController.h */,
+				BE85A9E51F4AC42D00A3AA69 /* GCDViewController.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		BE85A9E71F4AC88800A3AA69 /* 生成二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				BE85A9EB1F4AC8E400A3AA69 /* 图标.png */,
+				BE85A9E81F4AC8BA00A3AA69 /* ScanQRViewController.h */,
+				BE85A9E91F4AC8BA00A3AA69 /* ScanQRViewController.m */,
+			);
+			name = "生成二维码";
+			sourceTree = "<group>";
+		};
+		BE85A9F01F4ACB3B00A3AA69 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				BE85A9F41F4ACB9400A3AA69 /* NSOperationViewController.h */,
+				BE85A9F51F4ACB9400A3AA69 /* NSOperationViewController.m */,
+				BE85A9F71F4ACC3300A3AA69 /* touchViewController.h */,
+				BE85A9F81F4ACC3300A3AA69 /* touchViewController.m */,
+			);
+			name = NSOperation;
+			sourceTree = "<group>";
+		};
+		BE85A9FA1F4ACD2900A3AA69 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				BE85A9FB1F4ACD4900A3AA69 /* RunTimeViewController.h */,
+				BE85A9FC1F4ACD4900A3AA69 /* RunTimeViewController.m */,
+				BE85A9FE1F4ACD8C00A3AA69 /* RunTimePerson.h */,
+				BE85A9FF1F4ACD8C00A3AA69 /* RunTimePerson.m */,
+			);
+			name = RunTime;
+			sourceTree = "<group>";
+		};
+		BE85AA011F4ACF5F00A3AA69 /* strong和copy */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA021F4ACF8B00A3AA69 /* StrongAndCopyViewController.h */,
+				BE85AA031F4ACF8B00A3AA69 /* StrongAndCopyViewController.m */,
+			);
+			name = "strong和copy";
+			sourceTree = "<group>";
+		};
+		BE85AA051F4AD05E00A3AA69 /* 链表实现数组和字典 */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA061F4AD09C00A3AA69 /* DicViewController.h */,
+				BE85AA071F4AD09C00A3AA69 /* DicViewController.m */,
+				BE85AA091F4AD0AB00A3AA69 /* XLArray.h */,
+				BE85AA0A1F4AD0AB00A3AA69 /* XLArray.m */,
+				BE85AA0B1F4AD0AB00A3AA69 /* XLDictionary.h */,
+				BE85AA0C1F4AD0AB00A3AA69 /* XLDictionary.m */,
+			);
+			name = "链表实现数组和字典";
+			sourceTree = "<group>";
+		};
+		BE85AA121F4AD36500A3AA69 /* UIView的刷新 */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA131F4AD38A00A3AA69 /* ReFreshViewController.h */,
+				BE85AA141F4AD38A00A3AA69 /* ReFreshViewController.m */,
+				BE85AA161F4AD39F00A3AA69 /* TestvView.h */,
+				BE85AA171F4AD39F00A3AA69 /* TestvView.m */,
+				BE85AA181F4AD39F00A3AA69 /* YCalayer.h */,
+				BE85AA191F4AD39F00A3AA69 /* YCalayer.m */,
+			);
+			name = "UIView的刷新";
+			sourceTree = "<group>";
+		};
+		BE85AA201F4AD73A00A3AA69 /* collection卡片效果 */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA361F4AD92A00A3AA69 /* XLCarouseViewLayout */,
+				BE85AA301F4AD92100A3AA69 /* 0.jpg */,
+				BE85AA311F4AD92100A3AA69 /* 1.jpg */,
+				BE85AA321F4AD92100A3AA69 /* 2.jpg */,
+				BE85AA211F4AD84600A3AA69 /* CardViewController.h */,
+				BE85AA221F4AD84600A3AA69 /* CardViewController.m */,
+				BE85AA241F4AD86C00A3AA69 /* CollectionViewController.h */,
+				BE85AA251F4AD86C00A3AA69 /* CollectionViewController.m */,
+				BE85AA261F4AD86C00A3AA69 /* XLCarouselViewCell.h */,
+				BE85AA271F4AD86C00A3AA69 /* XLCarouselViewCell.m */,
+				BE85AA2A1F4AD86C00A3AA69 /* XLController.h */,
+				BE85AA2B1F4AD86C00A3AA69 /* XLController.m */,
+			);
+			name = "collection卡片效果";
+			sourceTree = "<group>";
+		};
+		BE85AA361F4AD92A00A3AA69 /* XLCarouseViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA281F4AD86C00A3AA69 /* XLCarouselViewLayout.h */,
+				BE85AA291F4AD86C00A3AA69 /* XLCarouselViewLayout.m */,
+			);
+			name = XLCarouseViewLayout;
+			sourceTree = "<group>";
+		};
+		BE85AA381F4AD9A600A3AA69 /* KVO实现原理 */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA3C1F4AD9DD00A3AA69 /* KVOViewController.h */,
+				BE85AA3D1F4AD9DD00A3AA69 /* KVOViewController.m */,
+				BE85AA391F4AD9C400A3AA69 /* NSObject+KVO.h */,
+				BE85AA3A1F4AD9C400A3AA69 /* NSObject+KVO.m */,
+			);
+			name = "KVO实现原理";
+			sourceTree = "<group>";
+		};
+		BE85AA3F1F4ADA5E00A3AA69 /* iOS本地通知 */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA401F4ADA7D00A3AA69 /* icon_certification_status1@2x.png */,
+				BE85AA421F4ADA9B00A3AA69 /* NotificationViewController.h */,
+				BE85AA431F4ADA9B00A3AA69 /* NotificationViewController.m */,
+			);
+			name = "iOS本地通知";
+			sourceTree = "<group>";
+		};
+		BE85AA451F4AE0DB00A3AA69 /* OCKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA461F4AE18800A3AA69 /* KnowledViewController.h */,
+				BE85AA471F4AE18800A3AA69 /* KnowledViewController.m */,
+				BE85AA491F4AE22C00A3AA69 /* kPerson.h */,
+				BE85AA4A1F4AE22C00A3AA69 /* kPerson.m */,
+				BE85AA4C1F4AE2F600A3AA69 /* KeyWord.h */,
+				BE85AA4D1F4AE2F600A3AA69 /* KeyWord.m */,
+				BE85AA4F1F4AE30600A3AA69 /* QuChong.h */,
+				BE85AA501F4AE30600A3AA69 /* QuChong.m */,
+				BE85AA521F4AE31100A3AA69 /* sortArray.h */,
+				BE85AA531F4AE31100A3AA69 /* sortArray.m */,
+				BE85AA551F4AE38A00A3AA69 /* ButtonCallbackObject.h */,
+				BE85AA561F4AE38A00A3AA69 /* ButtonCallbackObject.m */,
+				BE85AA571F4AE38A00A3AA69 /* MRCObject.h */,
+				BE85AA581F4AE38A00A3AA69 /* MRCObject.m */,
+				BE85AA5F1F4AE59A00A3AA69 /* BlockObject.h */,
+				BE85AA601F4AE59A00A3AA69 /* BlockObject.m */,
+				BE85AA5B1F4AE54900A3AA69 /* GCDTest.h */,
+				BE85AA5C1F4AE54900A3AA69 /* GCDTest.m */,
+			);
+			name = OCKnowledge;
+			sourceTree = "<group>";
+		};
+		BE85AA651F4AECE900A3AA69 /* TouchTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BE85AA6F1F4AED7C00A3AA69 /* YXLDrawView.h */,
+				BE85AA701F4AED7C00A3AA69 /* YXLDrawView.m */,
+				BE85AA711F4AED7C00A3AA69 /* YXLLine.h */,
+				BE85AA721F4AED7C00A3AA69 /* YXLLine.m */,
+				BE85AA731F4AED7C00A3AA69 /* YXLView.h */,
+				BE85AA741F4AED7C00A3AA69 /* YXLView.m */,
+				BE85AA661F4AED4900A3AA69 /* CoustomController.h */,
+				BE85AA671F4AED4900A3AA69 /* CoustomController.m */,
+				BE85AA691F4AED6000A3AA69 /* YXLDrawViewController.h */,
+				BE85AA6A1F4AED6000A3AA69 /* YXLDrawViewController.m */,
+				BE85AA6B1F4AED6000A3AA69 /* YXLViewController.h */,
+				BE85AA6C1F4AED6000A3AA69 /* YXLViewController.m */,
+			);
+			name = TouchTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE85A99B1F4A759A00A3AA69 /* TestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE85A9CC1F4A759A00A3AA69 /* Build configuration list for PBXNativeTarget "TestDemo" */;
+			buildPhases = (
+				35D7DFD8D99099EE025E4306 /* [CP] Check Pods Manifest.lock */,
+				BE85A9981F4A759A00A3AA69 /* Sources */,
+				BE85A9991F4A759A00A3AA69 /* Frameworks */,
+				BE85A99A1F4A759A00A3AA69 /* Resources */,
+				EF07C66A857628CD4422BAD5 /* [CP] Embed Pods Frameworks */,
+				C3A4A8213AB24A7FC20534F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestDemo;
+			productName = TestDemo;
+			productReference = BE85A99C1F4A759A00A3AA69 /* TestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE85A9B71F4A759A00A3AA69 /* TestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE85A9CF1F4A759A00A3AA69 /* Build configuration list for PBXNativeTarget "TestDemoTests" */;
+			buildPhases = (
+				BE85A9B41F4A759A00A3AA69 /* Sources */,
+				BE85A9B51F4A759A00A3AA69 /* Frameworks */,
+				BE85A9B61F4A759A00A3AA69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE85A9BA1F4A759A00A3AA69 /* PBXTargetDependency */,
+			);
+			name = TestDemoTests;
+			productName = TestDemoTests;
+			productReference = BE85A9B81F4A759A00A3AA69 /* TestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE85A9C21F4A759A00A3AA69 /* TestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE85A9D21F4A759A00A3AA69 /* Build configuration list for PBXNativeTarget "TestDemoUITests" */;
+			buildPhases = (
+				BE85A9BF1F4A759A00A3AA69 /* Sources */,
+				BE85A9C01F4A759A00A3AA69 /* Frameworks */,
+				BE85A9C11F4A759A00A3AA69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE85A9C51F4A759A00A3AA69 /* PBXTargetDependency */,
+			);
+			name = TestDemoUITests;
+			productName = TestDemoUITests;
+			productReference = BE85A9C31F4A759A00A3AA69 /* TestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE85A9941F4A759A00A3AA69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = PingAnXL;
+				TargetAttributes = {
+					BE85A99B1F4A759A00A3AA69 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					BE85A9B71F4A759A00A3AA69 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE85A99B1F4A759A00A3AA69;
+					};
+					BE85A9C21F4A759A00A3AA69 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE85A99B1F4A759A00A3AA69;
+					};
+				};
+			};
+			buildConfigurationList = BE85A9971F4A759A00A3AA69 /* Build configuration list for PBXProject "TestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE85A9931F4A759A00A3AA69;
+			productRefGroup = BE85A99D1F4A759A00A3AA69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE85A99B1F4A759A00A3AA69 /* TestDemo */,
+				BE85A9B71F4A759A00A3AA69 /* TestDemoTests */,
+				BE85A9C21F4A759A00A3AA69 /* TestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE85A99A1F4A759A00A3AA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE85A9B21F4A759A00A3AA69 /* LaunchScreen.storyboard in Resources */,
+				BE85AA331F4AD92100A3AA69 /* 0.jpg in Resources */,
+				BE85AA411F4ADA7D00A3AA69 /* icon_certification_status1@2x.png in Resources */,
+				BE85AA351F4AD92100A3AA69 /* 2.jpg in Resources */,
+				BE85A9AF1F4A759A00A3AA69 /* Assets.xcassets in Resources */,
+				BE85AA341F4AD92100A3AA69 /* 1.jpg in Resources */,
+				BE85A9EC1F4AC8E400A3AA69 /* 图标.png in Resources */,
+				BE85A9AA1F4A759A00A3AA69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE85A9B61F4A759A00A3AA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE85A9C11F4A759A00A3AA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35D7DFD8D99099EE025E4306 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A4A8213AB24A7FC20534F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF07C66A857628CD4422BAD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE85A9981F4A759A00A3AA69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE85AA771F4AED7C00A3AA69 /* YXLView.m in Sources */,
+				BE85AA441F4ADA9B00A3AA69 /* NotificationViewController.m in Sources */,
+				BE85A9EA1F4AC8BA00A3AA69 /* ScanQRViewController.m in Sources */,
+				BE85AA591F4AE38A00A3AA69 /* ButtonCallbackObject.m in Sources */,
+				BE85AA5D1F4AE54900A3AA69 /* GCDTest.m in Sources */,
+				BE85A9DC1F4AC12200A3AA69 /* NSObject+performSelector.m in Sources */,
+				BE85AA2D1F4AD86C00A3AA69 /* XLCarouselViewCell.m in Sources */,
+				BE74EA191F5D4B980076F847 /* DrawCyclesView.m in Sources */,
+				BE85AA3B1F4AD9C400A3AA69 /* NSObject+KVO.m in Sources */,
+				BE85AA481F4AE18800A3AA69 /* KnowledViewController.m in Sources */,
+				BE85AA041F4ACF8B00A3AA69 /* StrongAndCopyViewController.m in Sources */,
+				BE85AA1A1F4AD39F00A3AA69 /* TestvView.m in Sources */,
+				BE85AA001F4ACD8C00A3AA69 /* RunTimePerson.m in Sources */,
+				BE85AA681F4AED4900A3AA69 /* CoustomController.m in Sources */,
+				BE85A9EF1F4AC91300A3AA69 /* BaseViewController.m in Sources */,
+				BE85A9E61F4AC42D00A3AA69 /* GCDViewController.m in Sources */,
+				BE85AA4E1F4AE2F600A3AA69 /* KeyWord.m in Sources */,
+				BE85AA511F4AE30600A3AA69 /* QuChong.m in Sources */,
+				BE85AA541F4AE31100A3AA69 /* sortArray.m in Sources */,
+				BE85A9D91F4ABFD000A3AA69 /* ForWordController.m in Sources */,
+				BE85AA751F4AED7C00A3AA69 /* YXLDrawView.m in Sources */,
+				BE85AA2F1F4AD86C00A3AA69 /* XLController.m in Sources */,
+				BE85AA231F4AD84600A3AA69 /* CardViewController.m in Sources */,
+				BE85AA0D1F4AD0AB00A3AA69 /* XLArray.m in Sources */,
+				BE85A9E11F4AC13200A3AA69 /* Person.m in Sources */,
+				BE85A9E21F4AC13200A3AA69 /* Student.m in Sources */,
+				BE85AA5A1F4AE38A00A3AA69 /* MRCObject.m in Sources */,
+				BE85AA081F4AD09C00A3AA69 /* DicViewController.m in Sources */,
+				BE85AA6E1F4AED6000A3AA69 /* YXLViewController.m in Sources */,
+				BE85AA0E1F4AD0AB00A3AA69 /* XLDictionary.m in Sources */,
+				BE85AA2E1F4AD86C00A3AA69 /* XLCarouselViewLayout.m in Sources */,
+				BE85AA611F4AE59A00A3AA69 /* BlockObject.m in Sources */,
+				BE85A9A71F4A759A00A3AA69 /* ViewController.m in Sources */,
+				BE85A9A41F4A759A00A3AA69 /* AppDelegate.m in Sources */,
+				BE85AA1B1F4AD39F00A3AA69 /* YCalayer.m in Sources */,
+				BE85AA111F4AD24100A3AA69 /* CommonTools.m in Sources */,
+				BE85AA6D1F4AED6000A3AA69 /* YXLDrawViewController.m in Sources */,
+				BE85AA2C1F4AD86C00A3AA69 /* CollectionViewController.m in Sources */,
+				BE74EA121F5CF7560076F847 /* CoantionViewController.m in Sources */,
+				BE85A9AD1F4A759A00A3AA69 /* TestDemo.xcdatamodeld in Sources */,
+				BE85AA4B1F4AE22C00A3AA69 /* kPerson.m in Sources */,
+				BE85AA151F4AD38A00A3AA69 /* ReFreshViewController.m in Sources */,
+				BE85A9A11F4A759A00A3AA69 /* main.m in Sources */,
+				BE85A9FD1F4ACD4900A3AA69 /* RunTimeViewController.m in Sources */,
+				BE85AA761F4AED7C00A3AA69 /* YXLLine.m in Sources */,
+				BE85A9F61F4ACB9400A3AA69 /* NSOperationViewController.m in Sources */,
+				BE85A9F91F4ACC3300A3AA69 /* touchViewController.m in Sources */,
+				BE85AA3E1F4AD9DD00A3AA69 /* KVOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE85A9B41F4A759A00A3AA69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE85A9BD1F4A759A00A3AA69 /* TestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE85A9BF1F4A759A00A3AA69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE85A9C81F4A759A00A3AA69 /* TestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE85A9BA1F4A759A00A3AA69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE85A99B1F4A759A00A3AA69 /* TestDemo */;
+			targetProxy = BE85A9B91F4A759A00A3AA69 /* PBXContainerItemProxy */;
+		};
+		BE85A9C51F4A759A00A3AA69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE85A99B1F4A759A00A3AA69 /* TestDemo */;
+			targetProxy = BE85A9C41F4A759A00A3AA69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE85A9A81F4A759A00A3AA69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE85A9A91F4A759A00A3AA69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE85A9B01F4A759A00A3AA69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE85A9B11F4A759A00A3AA69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE85A9CA1F4A759A00A3AA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE85A9CB1F4A759A00A3AA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE85A9CD1F4A759A00A3AA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB6FAC84327E6BFC7A82D2F /* Pods-TestDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.TestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE85A9CE1F4A759A00A3AA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF03EB05B5048B5A014C566 /* Pods-TestDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.TestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE85A9D01F4A759A00A3AA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.TestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDemo.app/TestDemo";
+			};
+			name = Debug;
+		};
+		BE85A9D11F4A759A00A3AA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.TestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDemo.app/TestDemo";
+			};
+			name = Release;
+		};
+		BE85A9D31F4A759A00A3AA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.TestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestDemo;
+			};
+			name = Debug;
+		};
+		BE85A9D41F4A759A00A3AA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.TestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE85A9971F4A759A00A3AA69 /* Build configuration list for PBXProject "TestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85A9CA1F4A759A00A3AA69 /* Debug */,
+				BE85A9CB1F4A759A00A3AA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE85A9CC1F4A759A00A3AA69 /* Build configuration list for PBXNativeTarget "TestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85A9CD1F4A759A00A3AA69 /* Debug */,
+				BE85A9CE1F4A759A00A3AA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE85A9CF1F4A759A00A3AA69 /* Build configuration list for PBXNativeTarget "TestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85A9D01F4A759A00A3AA69 /* Debug */,
+				BE85A9D11F4A759A00A3AA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE85A9D21F4A759A00A3AA69 /* Build configuration list for PBXNativeTarget "TestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85A9D31F4A759A00A3AA69 /* Debug */,
+				BE85A9D41F4A759A00A3AA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE85A9AB1F4A759A00A3AA69 /* TestDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE85A9AC1F4A759A00A3AA69 /* TestDemo.xcdatamodel */,
+			);
+			currentVersion = BE85A9AC1F4A759A00A3AA69 /* TestDemo.xcdatamodel */;
+			path = TestDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE85A9941F4A759A00A3AA69 /* Project object */;
+}
